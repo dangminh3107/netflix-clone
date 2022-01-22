@@ -1,0 +1,16 @@
+.row_poster_sklt {
+  object-fit: contain;
+  margin-right: 10px;
+  cursor: pointer;
+  width: 230px;
+  height: 130px;
+  z-index: 1;
+  background-color: yellow;
+  animation: fadeSkeleton 1s ease infinite alternate;
+}
+
+@keyframes fadeSkeleton {
+  to {
+    opacity: 0.5;
+  }
+}
